@@ -1,14 +1,15 @@
 name: test-playwright
 
 on:
-  workflow_call:
-    inputs:
-      storeAdminUrl:
-        required: true
-        type: string
-      storeFrontUrl:
-        required: true
-        type: string
+  # workflow_call:
+  #   inputs:
+  #     storeAdminUrl:
+  #       required: true
+  #       type: string
+  #     storeFrontUrl:
+  #       required: true
+  #       type: string
+  workflow_dispatch: # Temporary placeholder - workflow requires workflow_call inputs to function properly
 
 jobs:
   playwright-tests:

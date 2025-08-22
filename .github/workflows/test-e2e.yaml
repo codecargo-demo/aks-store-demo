@@ -1,8 +1,8 @@
 name: test-e2e
 
 on:
-  schedule:
-    - cron: "0 0 * * 0" # Every Sunday at midnight UTC
+  # schedule:
+  #   - cron: "0 0 * * 0" # Every Sunday at midnight UTC
 
   workflow_dispatch:
 

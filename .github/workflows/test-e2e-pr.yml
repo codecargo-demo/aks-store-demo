@@ -1,8 +1,9 @@
 name: test-e2e-pr
 
 on:
-  issue_comment:
-    types: [created]
+  # issue_comment:
+  #   types: [created]
+  workflow_dispatch: # Temporary placeholder - workflow requires issue_comment context to function properly
 
 permissions:
   id-token: write
